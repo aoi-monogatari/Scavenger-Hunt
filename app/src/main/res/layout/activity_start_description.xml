@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background = "#90A4AE"
+    tools:context="com.apps.nowshin.scavengerhunt.StartDescriptionActivity">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="Hello World!"
+        android:src="@drawable/nfc01"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find the clues that you are given and win score! If you are able to find all of the clues accurately then you win! Yohoo!"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:padding="20dp"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start the Game"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:background = "@android:color/holo_blue_dark"
+        android:onClick="goToCurrentClueActivity"
+        />
+</LinearLayout>
